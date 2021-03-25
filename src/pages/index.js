@@ -166,7 +166,7 @@ export default () => (
             </div>
             </div>
             <div className="col-lg-6">
-            <form className="w-full max-w-lg" name="contactForm" method="POST" data-netlify="true">
+            <form name="contactForm" method="POST" data-netlify="true">
                   <div className="flex flex-wrap -mx-3">
                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                       <label className="block uppercase tracking-wide  text-xs font-bold mb-2" for="grid-first-name">
