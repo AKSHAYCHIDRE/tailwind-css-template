@@ -166,20 +166,20 @@ export default () => (
             </div>
             </div>
             <div className="col-lg-6">
-            <form className="w-full max-w-lg" name="contact" method="POST" data-netlify="true">
+            <form className="w-full max-w-lg" name="contactForm" method="POST" data-netlify="true">
                   <div className="flex flex-wrap -mx-3">
                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                       <label className="block uppercase tracking-wide  text-xs font-bold mb-2" for="grid-first-name">
                         First Name
                       </label>
-                      <input className="appearance-none block w-full  border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="First Name"required />
+                      <input name="first_name" className="appearance-none block w-full  border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="First Name" required />
                       {/* <p className="text-red-500 text-xs italic">Please fill out this field.</p> */}
                     </div>
                     <div className="w-full md:w-1/2 px-3">
                       <label className="block uppercase tracking-wide  text-xs font-bold" for="grid-last-name">
                         Last Name
                       </label>
-                      <input className="appearance-none block w-full  border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Last Name" required/>
+                      <input name="last_name" className="appearance-none block w-full  border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Last Name" required/>
                     </div>
                   </div>
                   <div className="flex flex-wrap -mx-3">
@@ -187,7 +187,7 @@ export default () => (
                       <label className="block uppercase tracking-wide text-xs font-bold mb-2" for="grid-password">
                         E-mail
                       </label>
-                      <input className="appearance-none block w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="Email" required/>
+                      <input name="e-mail" className="appearance-none block w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="Email" required/>
                     </div>
                   </div>
                   <div className="flex flex-wrap -mx-3">
@@ -195,7 +195,7 @@ export default () => (
                       <label className="block uppercase tracking-wide text-xs font-bold" for="grid-password">
                         Message
                       </label>
-                      <textarea className=" no-resize appearance-none block w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" placeholder="Your Message Here" required></textarea>
+                      <textarea name="message" className=" no-resize appearance-none block w-full border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" placeholder="Your Message Here" required></textarea>
                     </div>
                   </div>
                   <div className="md:flex md:items-center">
