@@ -1,0 +1,20 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+.icon-text {
+    color: #007bff;
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.about-footer {
+    margin-left: 25%;
+}
+
+.social-media-wrapper {
+    margin-left: 10%;
+}
+
+.footer-wrap {
+    background-color: #393939;
+}

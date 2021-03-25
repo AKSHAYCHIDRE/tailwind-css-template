@@ -6,9 +6,12 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "npm start":"gatsby develop"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
     "gatsby": "^2.18.18",
     "gatsby-theme-codebushi": "1.0.0",
     "react": "^16.12.0",
