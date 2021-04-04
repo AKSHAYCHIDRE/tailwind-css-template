@@ -1,30 +1,38 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="container mx-auto py-16 px-3 mt-48 mb-8 text-gray-100 footer-wrap">
-    <div className="flex -mx-3 ">
-      <div className="flex-1 about-footer">
-        <h2 className="text-lg font-semibold text-white">About Us</h2>
-        <p className="mt-5 text-white">We're passionate about offering some <br/> of the best business growth services.</p>
-      </div>
-      <div className="flex-1 px-3 social-media-wrapper">
-        <h2 className="text-lg font-semibold text-white">Social Media</h2>
-        <ul className="mt-4 leading-loose">
-          <li>
-          <i className="fa fa-facebook"></i>
-            <a className="ml-3 text-white" target="_blank" href="https://twitter.com/HuntaroSan">Facebook</a>
-          </li>
-          <li>
-          <i className="fa fa-instagram"></i>
-            <a className="ml-3 text-white" target="_blank" href="https://dev.to/changoman">Instagram</a>
-          </li>
-          <li>
-          <i className="fa fa-linkedin"></i>
-            <a className="ml-3 text-white" target="_blank" href="https://github.com/codebushi/gatsby-starter-lander">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+  	<footer className="mx-auto text-gray-100 footer-wrap">
+		<div className="container">
+			<div className="flex text-white justify-around pt-16 pb-10 ">
+				<div className="">
+					<h4 className="text-xl font-semibold mb-3">About Softwill</h4>
+					<p className="text-sm">We're passionate about offering some <br/> of the best business growth services.</p>
+				</div>
+				<div className="">
+					<h4 className="text-xl mb-3">Social Media</h4>
+					<ul className="leading-loose flex gap-4">
+						<li>
+							<a href="https://www.facebook.com/" className="hover:no-underline" target="_blank" >
+								<i className="fa fa-facebook flex items-center justify-center h-10 w-10 rounded-full fab fill-current text-white text-xl bg-teal-400 hover:bg-teal-300"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/" className="hover:no-underline" target="_blank">
+								<i className="fa fa-instagram flex items-center justify-center h-10 w-10 rounded-full fab fill-current text-white text-xl bg-teal-400 hover:bg-teal-300"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/" className="hover:no-underline" target="_blank">
+								<i className="fa fa-linkedin flex items-center justify-center h-10 w-10 rounded-full fab fill-current text-white text-xl bg-teal-400 hover:bg-teal-300"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div className="copywrite text-center py-4 border-gray-600 border-t text-gray-500">
+				<p className="mb-0 text-sm ">Copyright © 2021 <a href="#" className="company-name text-sm text-gray-500 hover:text-white hover:no-underline">Softwill</a> - All rights reserved</p>
+			</div>
+		</div>
   </footer>
 );
 

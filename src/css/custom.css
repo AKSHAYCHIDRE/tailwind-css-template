@@ -9,3 +9,6 @@
 .fa-envelope {
     color: darkorange
 }
+html {
+    scroll-behavior: smooth;
+}
