@@ -10,14 +10,14 @@ const Footer = () => (
 				</div>
 				<div className="">
 					<h4 className="text-xl mb-3">Social Media</h4>
-					<ul className="leading-loose flex gap-4">
+					<ul className="leading-loose flex">
 						<li>
-							<a href="https://www.facebook.com/" className="hover:no-underline" target="_blank" >
+							<a href="https://www.facebook.com/" className="hover:no-underline mr-3 block" target="_blank" >
 								<i className="fa fa-facebook flex items-center justify-center h-10 w-10 rounded-full fab fill-current text-white text-xl bg-teal-400 hover:bg-teal-300"></i>
 							</a>
 						</li>
 						<li>
-							<a href="https://www.instagram.com/" className="hover:no-underline" target="_blank">
+							<a href="https://www.instagram.com/" className="hover:no-underline mr-3 block" target="_blank">
 								<i className="fa fa-instagram flex items-center justify-center h-10 w-10 rounded-full fab fill-current text-white text-xl bg-teal-400 hover:bg-teal-300"></i>
 							</a>
 						</li>

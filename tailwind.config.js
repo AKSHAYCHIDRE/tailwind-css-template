@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   theme: {
     extend: {
@@ -11,5 +13,19 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    plugin(function({ addVariant, e, postcss }) {
+      addVariant('supports-grid', ({ container, separator }) => {
+        const supportsRule = postcss.atRule({ name: 'supports', params: '(display: grid)' })
+        supportsRule.append(container.nodes)
+        container.append(supportsRule)
+        supportsRule.walkRules(rule => {
+          rule.selector = `.${e(`supports-grid${separator}${rule.selector.slice(1)}`)}`
+        })
+      })
+    })
+  ]
 };
+
+
+
