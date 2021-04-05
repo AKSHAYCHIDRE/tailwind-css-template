@@ -82,70 +82,70 @@ export default () => (
     </section>
   
     {/* FrontEnd Technologies section */}
-    <section className="container pt-16" id="">
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-            <div class="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
-                <div class="align-middle">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Front End Technologies</h3>
-                    <p class="text-gray-700 mb-3">
+    <section className="container pt-16" >
+        <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+            <div className="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
+                <div className="align-middle">
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Front End Technologies</h3>
+                    <p className="text-gray-700 mb-3">
                         A bare bones development team for building professional web sites or software for the web platform.
                     </p>
-                    <div class="flex items-start mt-4 pb-1 text-sm">
+                    <div className="flex items-start mt-4 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/javascript.png')}/>
-                        <p class="mb-0">Javacript</p>
+                        <p className="mb-0">Javacript</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/react.png')}/>
-                        <p class="mb-0">ReactJS</p>
+                        <p className="mb-0">ReactJS</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/angular.png')}/>
-                        <p class="mb-0">AngularJS</p>
+                        <p className="mb-0">AngularJS</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/html.svg')}/>
-                        <p class="mb-0">HTML, CSS</p>
+                        <p className="mb-0">HTML, CSS</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/swift.svg')}/>
-                        <p class="mb-0">Swift</p>
+                        <p className="mb-0">Swift</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/java.svg')}/>
-                        <p class="mb-0"> Core Java</p>
+                        <p className="mb-0"> Core Java</p>
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 p-6 mt-0 pt-0 ">
+            <div className="w-full sm:w-1/2 p-6 mt-0 pt-0 ">
                 <img src={require('../svg/web_development.svg')} alt="web_development_image"/>
             </div>
         </div>
     </section>
 
     {/* BackEnd Technologies section */}
-    <section className="container py-16" id="">
-        <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-            <div class="w-full sm:w-1/2 p-6 mt-0 pt-0">
+    <section className="container py-16">
+        <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+            <div className="w-full sm:w-1/2 p-6 mt-0 pt-0">
                 <img src={require('../svg/backend_development.svg')} alt="backend_development_image"/>
             </div>
-            <div class="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
-                <div class="align-middle">
-                    <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Back End Technologies</h3>
-                    <p class="text-gray-700 mb-3">
+            <div className="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
+                <div className="align-middle">
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Back End Technologies</h3>
+                    <p className="text-gray-700 mb-3">
                         Back-end developers develop an application that supports the front-end. 
                         It should also provide support, security, and content management.
                     </p>
-                    <div class="flex items-start mt-4 pb-1 text-sm">
+                    <div className="flex items-start mt-4 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/cms.svg')}/>
-                        <p class="mb-0">CMS ( Content Management System )</p>
+                        <p className="mb-0">CMS ( Content Management System )</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/mongodb.svg')}/>
-                        <p class="mb-0">MySQL, MongoDB, Oracle, SQLServer</p>
+                        <p className="mb-0">MySQL, MongoDB, Oracle, SQLServer</p>
                     </div>
-                    <div class="flex items-start mt-2 pb-1 text-sm">
+                    <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/api.png')}/>
-                        <p class="mb-0">API (REST & SOAP)</p>
+                        <p className="mb-0">API (REST & SOAP)</p>
                     </div>
                 </div>
             </div>
@@ -175,9 +175,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -188,9 +188,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -201,9 +201,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -214,9 +214,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -227,9 +227,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -253,9 +253,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -266,9 +266,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -279,9 +279,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -292,9 +292,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -305,9 +305,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -331,9 +331,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -344,9 +344,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -357,9 +357,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -370,9 +370,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -383,9 +383,9 @@ export default () => (
                             <div className="flex items-start mt-2 text-sm">
                                 <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" className="flex-none w-6 h-6 p-px mt-px mr-2 text-teal-400">
                                 <path
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
                                     d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
                                 ></path>
                                 </svg>
@@ -414,7 +414,7 @@ export default () => (
                     <div className="map-responsive">
                         <div className="mapouter">
                             <div className="gmap_canvas">
-                                <iframe width="550" height="470" id="gmap_canvas" src="https://maps.google.com/maps?q=vighnaharta%20building,erandwane%20pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <iframe width="550" height="470" id="gmap_canvas" src="https://maps.google.com/maps?q=vighnaharta%20building,erandwane%20pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                             </div>
                         </div>
                     </div>
