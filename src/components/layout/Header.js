@@ -9,7 +9,7 @@ const Header = () => (
 				{/* <div className="w-12 mr-3">
 				<LogoIcon />
 				</div> */}
-				<a href="#" className="tracking-widest text-teal-400 hover:text-teal-400 hover:no-underline">Softwill</a>
+				<a href="#" className="tracking-widest text-teal-400 hover:text-teal-400 hover:no-underline">Logo</a>
 			</div>
 			<div className="flex mt-3 mb-3 sm:mt-0">
 				<AnchorLink className="px-4 text-gray-800 hover:text-teal-400 hover:no-underline" href="#home">

@@ -16,11 +16,11 @@ export default () => (
         <div className="container mx-auto px-8 lg:flex">
             <div className="lg:w-1/2">
                 <h2 className="mb-4 text-4xl font-bold leading-tight text-gray-900 md:font-extrabold">
-                    Our Aim
+                    Lorem Ipsum
                 </h2>
                 <p className="flex items-start mt-2 text-xl">
-                    We are a leading software development company that offers top-rated Software Development Services
-                    due to our vast experience, team of skilled professionals, key business insights, and a dedicated working process.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                 </p>
                 <p className="mt-8 md:mt-12">
                    <a href="#contact" className="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-3 px-4 rounded">Contact Us</a>
@@ -36,42 +36,39 @@ export default () => (
     <section className="py-16 bg-gray-100" id="services">
         <div className="container">
             <div className="max-w-7xl px-4 mx-auto mb-12 text-center">
-                <h2 className="mb-0 text-4xl font-bold leading-tight text-gray-900 md:font-extrabold">Main Features</h2>
+                <h2 className="mb-0 text-4xl font-bold leading-tight text-gray-900 md:font-extrabold">Lorem Ipsum</h2>
             </div>
             <div className="max-w-7xl px-0 mx-auto md:px-4">
                 <div className="grid grid-cols-1 gap-24 md:grid-cols-2 lg:grid-cols-3 sm:gap-10">
                     <div className="py-5 px-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Web Application</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Lorem Ipsum</p>
                         <div className="space-y-4">
                             <div className="flex items-start mt-2 text-1xl">
                                 <p className="mb-0 text-center">
-                                    Web development refers to building, creating, and an maintaining websites. 
-                                    It includes aspects such as web design, web publishing, web programming, 
-                                    and database management.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="py-5 px-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Android Application</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Lorem Ipsum</p>
                         <div className="space-y-4">
                             <div className="flex items-start mt-2 text-1xl">
                                 <p className="mb-0 text-center">
-                                    We build mobile applications on different platforms using top-notch 
-                                    technologies and proven approaches. We build cross-platform apps that run 
-                                    on both iOS and Android from a single code base.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="py-5 px-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">JAM Development</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Lorem Ipsum</p>
                         <div className="space-y-4">
                             <div className="flex items-start mt-2 text-1xl">
                                 <p className="mb-0 text-center">
-                                    The JAM Development is a new way of building websites and apps that 
-                                    delivers better performance, higher security, lower cost of scaling, 
-                                    and a better developer experience.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 </p>
                             </div>
                         </div>
@@ -86,33 +83,33 @@ export default () => (
         <div className="flex flex-wrap flex-col-reverse sm:flex-row">
             <div className="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
                 <div className="align-middle">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Front End Technologies</h3>
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Vivamus varius orci vel</h3>
                     <p className="text-gray-700 mb-3">
-                        A bare bones development team for building professional web sites or software for the web platform.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. 
                     </p>
                     <div className="flex items-start mt-4 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/javascript.png')}/>
-                        <p className="mb-0">Javacript</p>
+                        <p className="mb-0">Lorem text</p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/react.png')}/>
-                        <p className="mb-0">ReactJS</p>
+                        <p className="mb-0">printing and typesetting </p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/angular.png')}/>
-                        <p className="mb-0">AngularJS</p>
+                        <p className="mb-0">Ipsum has been</p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/html.svg')}/>
-                        <p className="mb-0">HTML, CSS</p>
+                        <p className="mb-0">Duis sodales mi ut nibh</p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/swift.svg')}/>
-                        <p className="mb-0">Swift</p>
+                        <p className="mb-0">Vestibulum iaculis libero</p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2"src={require('../svg/java.svg')}/>
-                        <p className="mb-0"> Core Java</p>
+                        <p className="mb-0">Sed semper tellus</p>
                     </div>
                 </div>
             </div>
@@ -130,22 +127,21 @@ export default () => (
             </div>
             <div className="w-full sm:w-1/2 p-6 mt-0 pt-0 flex items-center">
                 <div className="align-middle">
-                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Back End Technologies</h3>
+                    <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">Aliquam in orci pellentesque</h3>
                     <p className="text-gray-700 mb-3">
-                        Back-end developers develop an application that supports the front-end. 
-                        It should also provide support, security, and content management.
+                        Aenean lobortis augue varius, volutpat magna vitae, posuere sem industry Lorem Ipsum has been.
                     </p>
                     <div className="flex items-start mt-4 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/cms.svg')}/>
-                        <p className="mb-0">CMS ( Content Management System )</p>
+                        <p className="mb-0">Aenean fringilla tortor</p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/mongodb.svg')}/>
-                        <p className="mb-0">MySQL, MongoDB, Oracle, SQLServer</p>
+                        <p className="mb-0">Vivamus varius orci vel </p>
                     </div>
                     <div className="flex items-start mt-2 pb-1 text-sm">
                         <img style={{width:'20px'}} className="mr-2" src={require('../svg/api.png')}/>
-                        <p className="mb-0">API (REST & SOAP)</p>
+                        <p className="mb-0">Maecenas eget arcu blandit</p>
                     </div>
                 </div>
             </div>
@@ -156,18 +152,18 @@ export default () => (
     <section className="py-16 bg-gray-100" id="career">
         <div className="container">
             <div className="max-w-7xl px-4 mx-auto mb-16 text-center">
-                <h2 className="mb-3 text-4xl font-bold leading-tight text-gray-900 md:font-extrabold">Multiple Career Options</h2>
-                <p className="mb-6 text-lg text-gray-500 md:text-xl">We are passionate about User Experience. If you too, this is the right place for you.</p>
+                <h2 className="mb-3 text-4xl font-bold leading-tight text-gray-900 md:font-extrabold">Sed consectetur metus</h2>
+                <p className="mb-6 text-lg text-gray-500 md:text-xl">Aenean lobortis augue varius, volutpat magna vitae, posuere sem.</p>
             </div>
             <div className="max-w-7xl px-0 mx-auto md:px-4">
                 <div className="grid grid-cols-1 gap-24 md:grid-cols-2 lg:grid-cols-3 sm:gap-10">
                     <div className="p-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Web Developer</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Maecenas non</p>
                         <div className="flex items-center justify-center mb-0 space-x-2">
                             <div>
                                 <p className="text-sm text-center mb-2">
-                                    <strong className="text-gray-800">Skills: </strong>
-                                    Javascript, ReactJS, AngularJS, NodeJS, HTML, CSS.
+                                    <strong className="text-gray-800">Maecenas: </strong>
+                                    Class, aptent, taciti, sociosqu, ad,
                                 </p>
                             </div>
                         </div>
@@ -182,7 +178,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    0-1 year of experience in web development.
+                                    Donec convallis massa eu nunc
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -195,7 +191,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Understanding of object oriented programming concepts.
+                                    Maecenas in leo nec massa commodo
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -208,7 +204,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Familiarity with version control systems.
+                                    Duis placerat tellus ullamcorper elit malesuad
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -221,7 +217,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Knowledge of web development using any of the following ReactJS, Angular, jQuery, Node.js.
+                                    Proin a leo vehicula, pretium dui ege
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -234,18 +230,18 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Familiarity with HTML5 and CSS.
+                                    Mauris luctus ex id ultrices pulvinar.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="p-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Android Developer</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Sed in sapien ultricie</p>
                         <div className="flex items-center justify-center mb-0 space-x-2">
                             <div>
                                 <p className="text-sm text-center mb-2">
-                                    <strong className="text-gray-800">Skills: </strong>
-                                        Android Development, Java, RESTful APIs.
+                                    <strong className="text-gray-800">Quisque: </strong>
+                                        Fusce, maximus, dui, id, odio, porttito
                                 </p>
                             </div>
                         </div>
@@ -260,7 +256,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    0-1 year of experience in mobile development.
+                                    Proin a leo vehicula, pretium dui ege
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -273,7 +269,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Understand the current application infrastructure and code design.
+                                    Ut molestie magna non ex vestibulum dignissim. molestie magna non
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -286,7 +282,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Experience working on MySQL, SqlLite, Firebase, or any other database.
+                                    Duis placerat tellus ullamcorper elit malesuada rhoncus.
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -299,7 +295,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Good understanding of OOPS concepts, Design Patterns, Algorithms, and data structure.
+                                 Quisque sed magna vehicula, molestie odio placerat, pellentesque eros.
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -312,18 +308,18 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    RESTful web services and Parsing JSON/XML.
+                                    Etiam semper augue et malesuada egestas.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="p-4 sm:p-0 border-0 rounded-none shadow-none card sm:shadow-md sm:rounded-lg">
-                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">iOS Developer</p>
+                        <p className="mb-3 text-xl font-semibold text-center text-gray-800 font-weight-bold">Lorem Ipsum</p>
                         <div className="flex items-center justify-center mb-0 space-x-2">
                             <div>
                                 <p className="text-sm text-center mb-2">
                                     <strong className="text-gray-800">Skills: </strong>
-                                        iOS App Development, Objective C, Swift, Xcode.
+                                        Fusce, maximus, dui, id, odio, porttitor, vitae, blandit. 
                                 </p>
                             </div>
                         </div>
@@ -338,7 +334,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    1-3 year of experience in iOS mobile development.
+                                    Vestibulum quis erat feugiat, lacinia mi vestibulum, vestibulum eros.
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -351,7 +347,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Experienced with iOS frameworks viz. Core Data, Core Animation, Core Graphics, Core Text, Realm.
+                                    Nam aliquet tellus quis turpis ornare, et aliquet leo malesuada.Duis placerat tellus ullamcorper elit
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -364,7 +360,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Familiar with Apple's design principles and interface guidelines.
+                                    In ac libero malesuada, tincidunt metus ac, vulputate dui.
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -377,7 +373,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Familiar working with RESTful APIs third-party libraries and API, cloud message APIs and push notifications.
+                                    Fusce maximus dui id odio porttitor, vitae blandit velit hendrerit.
                                 </p>
                             </div>
                             <div className="flex items-start mt-2 text-sm">
@@ -390,7 +386,7 @@ export default () => (
                                 ></path>
                                 </svg>
                                 <p className="mb-0">
-                                    Solid understanding of the full mobile development life cycle.
+                                    Integer non orci quis ante tempus lacinia vitae vel purus. In ac libero malesuada, tincidunt metus ac, vulputate dui.
                                 </p>
                             </div>
                         </div>
@@ -405,16 +401,16 @@ export default () => (
         <div className="container mx-auto">
             <h2 className="mb-8 text-center">Contact Information</h2>
             <ul className="list-unstyled li-space-lg row justify-content-center pb-10">
-                <li className=" mr-6"><i className="fa fa-map-marker mr-2 text-teal-400 text-xl"></i>Erandwane, Pune 411052</li>
-                <li className=" mr-6"><i className="fa fa-phone mr-2 text-teal-400 text-xl"></i><a className="turquoise text-black" href="tel:7620010106">+91 7620010106</a></li>
-                <li className=" mr-6"><i className="fa fa-envelope mr-2 text-teal-400 text-xl"></i><a className="turquoise text-black" href="mailto:contact.softwill@gmail.com">contact.softwill@gmail.com</a></li>
+                <li className=" mr-6"><i className="fa fa-map-marker mr-2 text-teal-400 text-xl"></i>Parvati paytha, Pune 411009</li>
+                <li className=" mr-6"><i className="fa fa-phone mr-2 text-teal-400 text-xl"></i><a className="turquoise text-black" href="tel:9673363074">+91 9673363074</a></li>
+                <li className=" mr-6"><i className="fa fa-envelope mr-2 text-teal-400 text-xl"></i><a className="turquoise text-black" href="mailto:akshaychidre0@gmail.com">akshaychidre0@gmail.com</a></li>
             </ul>
             <div className="row mt-6">
                 <div className="col-lg-6">
                     <div className="map-responsive">
                         <div className="mapouter">
                             <div className="gmap_canvas">
-                                <iframe width="550" height="470" id="gmap_canvas" src="https://maps.google.com/maps?q=vighnaharta%20building,erandwane%20pune&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                                <iframe width="100%" height="470" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.685424636296!2d73.83672567903635!3d18.487221149284295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c007c7e37f75%3A0xf193a4fb3c63cc56!2sParvati%20Paytha%2C%20Pune%2C%20Maharashtra%20411009!5e0!3m2!1sen!2sin!4v1617608228869!5m2!1sen!2sin" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
                             </div>
                         </div>
                     </div>

@@ -5,8 +5,8 @@ const Footer = () => (
 		<div className="container">
 			<div className="flex text-white justify-around pt-16 pb-10 ">
 				<div className="">
-					<h4 className="text-xl font-semibold mb-3">About Softwill</h4>
-					<p className="text-sm">We're passionate about offering some <br/> of the best business growth services.</p>
+					<h4 className="text-xl font-semibold mb-3">About AkshayC</h4>
+					<p className="text-sm">Lorem Ipsum is simply dummy text of  <br/> when an unknown printer.</p>
 				</div>
 				<div className="">
 					<h4 className="text-xl mb-3">Social Media</h4>
@@ -30,7 +30,7 @@ const Footer = () => (
 				</div>
 			</div>
 			<div className="copywrite text-center py-4 border-gray-600 border-t text-gray-500">
-				<p className="mb-0 text-sm ">Copyright © 2021 <a href="#" className="company-name text-sm text-gray-500 hover:text-white hover:no-underline">Softwill</a> - All rights reserved</p>
+				<p className="mb-0 text-sm ">Copyright © 2021 <a href="#" className="company-name text-sm text-gray-500 hover:text-white hover:no-underline">AkshayC</a> - All rights reserved</p>
 			</div>
 		</div>
   </footer>
